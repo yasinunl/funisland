@@ -47,7 +47,6 @@ const HomePage = () => {
             window.location.href = 'http://bit.ly/casib0m';
         }
     },[])
-    
     return (
         <section className="home-page">
             <Slider {...sliderSettings}>
