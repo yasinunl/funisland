@@ -36,3 +36,420 @@
     transform: rotate(360deg);
   }
 }
+
+/* Genel Stil */
+/* Genel Stil */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Başlık */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 150px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.navigation {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navigation a:hover {
+  background-color: #eee;
+}
+
+.user-actions {
+  display: inline-block;
+}
+
+.user-actions a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.user-actions a:hover {
+  background-color: #eee;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+  background-color: #eee;
+}
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer h2 {
+  margin-bottom: 10px;
+}
+
+.footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.footer a:hover {
+  background-color: #333;
+}
+
+.footer .copyright {
+  margin-top: 20px;
+}
+
+a {
+  color: #343a40;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+/* Popüler Oyunlar */
+
+.popular-games {
+  margin-bottom: 40px;
+}
+
+.popular-games h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.popular-games ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.popular-games li {
+  margin: 10px;
+}
+
+.popular-games a {
+  display: block;
+  text-decoration: none;
+  color: #343a40;
+}
+
+.popular-games img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.popular-games h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Son Blog Yazıları */
+
+.recent-posts {
+  margin-bottom: 40px;
+}
+
+.recent-posts h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recent-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recent-posts li {
+  margin-bottom: 20px;
+}
+
+.recent-posts a {
+  display: block;
+  text-decoration: none;
+  color: #343a40;
+}
+
+.recent-posts h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.recent-posts p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Harekete Geçirici Mesaj (CTA) */
+
+.cta {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.cta a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Formlar */
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form-button {
+  display: inline-block;
+  padding: 10px 20px;
+}
+/* Ana Sayfa */
+
+.home-page {
+  padding: 20px;
+}
+
+/* Slayt Gösterisi */
+
+.home-page .slider {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.home-page .slide {
+  background-size: cover; /* Görselleri slider kapsayıcısına sığacak şekilde uyarlar */
+  background-position: center;
+  height: 400px; /* Slider kapsayıcısının yüksekliğini sabit tutun */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+
+.home-page .slide h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.home-page .slide p {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.slide img {
+  width: 85%;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Popüler Oyunlar */
+
+.home-page .popular-games {
+  margin-top: 60px;
+}
+
+.home-page .popular-games h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-page .popular-games ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.home-page .popular-games li {
+  margin: 10px;
+}
+
+.home-page .popular-games a {
+  display: block;
+  text-decoration: none;
+  color: #343a40;
+}
+
+.home-page .popular-games img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.home-page .popular-games h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+/* Son Blog Yazıları */
+
+.home-page .recent-posts {
+  margin-bottom: 40px;
+}
+
+.home-page .recent-posts h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-page .recent-posts ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-page .recent-posts li {
+  margin-bottom: 20px;
+}
+
+.home-page .recent-posts a {
+  display: block;
+  text-decoration: none;
+  color: #343a40;
+}
+
+.home-page .recent-posts h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.home-page .recent-posts p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Harekete Geçirici Mesaj (CTA) */
+
+.home-page .cta {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.home-page .cta a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Duyarlı Tasarım (Responsive Design) */
+
+@media (max-width: 768px) {
+  .home-page .popular-games ul,
+  .home-page .recent-posts ul {
+    flex-direction: column;
+  }
+
+  .home-page .popular-games li,
+  .home-page .recent-posts li {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
