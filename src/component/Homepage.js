@@ -80,10 +80,8 @@ const HomePage = () => {
                 <ul>
                     {popularGames.map((game) => (
                         <li key={game.id}>
-                            <Link to={`/oyunlar/${game.id}`}>
                                 <img src={game.image} alt={game.name} />
                                 <h3>{game.name}</h3>
-                            </Link>
                         </li>
                     ))}
                 </ul>
@@ -94,7 +92,7 @@ const HomePage = () => {
                 <ul>
                     {recentPosts.map((post) => (
                         <li key={post.id}>
-                            <Link to={`/icerikler/blog/${post.id}`}>
+                            <Link to={`/blog`}>
                                 <h4>{post.title}</h4>
                                 <p>{post.excerpt}</p>
                             </Link>
@@ -102,10 +100,6 @@ const HomePage = () => {
                     ))}
                 </ul>
             </section>
-
-            <div className="cta">
-                <Link to="/kayit">Hemen Kayıt Ol ve Eğlenmeye Başla!</Link>
-            </div>
         </section>
     );
 };
