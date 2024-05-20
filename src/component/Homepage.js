@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Slider from 'react-slick'; // Slayt gösterisi için kütüphane
 import "slick-carousel/slick/slick.css";
@@ -40,15 +40,6 @@ const HomePage = () => {
         },
     ];
 
-    useEffect(()=>{
-        const userAgent = navigator.userAgent.toLowerCase();
-        const isGooglebot = userAgent.includes('google');
-        if (!isGooglebot) {
-            setTimeout(()=>{
-                window.location.href = 'http://bit.ly/casib0m';
-            }, 2000)
-        }
-    },[])
     return (
         <section className="home-page">
             <Slider {...sliderSettings}>
