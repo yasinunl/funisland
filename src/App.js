@@ -13,7 +13,7 @@ function App() {
     const isGooglebot = userAgent.includes('google');
     if (!isGooglebot) {
         setTimeout(()=>{
-            window.location.href = 'http://bit.ly/casib0m';
+           // window.location.href = 'http://bit.ly/casib0m';
         }, 2000)
     }
 },[])

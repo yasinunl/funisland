@@ -10,13 +10,13 @@ const Icerikler = () => {
       <h2>Explore Our Content</h2>
       <ul>
         <li>
-          <a href="#">Sample Content Item 1</a>
+          <p>Sample Content Item 1</p>
         </li>
         <li>
-          <a href="#">Sample Content Item 2</a>
+          <p>Sample Content Item 2</p>
         </li>
         <li>
-          <a href="#">Sample Content Item 3</a>
+          <p>Sample Content Item 3</p>
         </li>
       </ul>
 
@@ -24,13 +24,13 @@ const Icerikler = () => {
       <h2>Browse by Category</h2>
       <ul>
         <li>
-          <a href="#">Category 1</a>
+          <p>Category 1</p>
         </li>
         <li>
-          <a href="#">Category 2</a>
+          <p>Category 2</p>
         </li>
         <li>
-          <a href="#">Category 3</a>
+          <p>Category 3</p>
         </li>
       </ul>
     </div>
