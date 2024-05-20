@@ -1,6 +1,6 @@
 import React from 'react';
 import HomePage from './Homepage';
-import { BrowserRouter as Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Blog from './Blog';
 import Icerikler from './Icerikler';
 import Rehber from './Rehber';

